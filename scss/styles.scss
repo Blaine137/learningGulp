@@ -1,5 +1,14 @@
 $h1Color: rgb(255, 0, 0);
 
+body{
+    display: flex;
+    grid-template-columns: 100vw;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 h1{
     color: black;
     text-align: center;
