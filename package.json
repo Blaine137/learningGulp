@@ -1,0 +1,21 @@
+{
+  "name": "learninggulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "gulp": "^4.0.2",
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 3000\" \"open http://localhost:1234/build\""
+  },
+  "author": "",
+  "license": "ISC"
+}
