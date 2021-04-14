@@ -1,7 +1,12 @@
+$h1Color: rgb(255, 0, 0);
+
 h1{
-    color: red;
-    background-color: green;
+    color: black;
+    text-align: center;
+    background-color: blue;
+    margin: 0;
     &:hover{
         color: blue;
+        background-color: black;
     }
 }
