@@ -1,1 +1,15 @@
-body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;grid-template-columns:100vw;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;justify-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:100vh}h1{color:#000;text-align:center;background-color:#00f;margin:0}h1:hover{color:#00f;background-color:#000}
+body {
+  height: 100vh; }
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: blue;
+  margin: 0; }
+  h1:hover {
+    color: blue;
+    background-color: black; }
+
+.container {
+  display: grid;
+  grid-template-columns: 50vw 50vw; }
