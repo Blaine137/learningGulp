@@ -13,3 +13,9 @@ h1 {
 .container {
   display: grid;
   grid-template-columns: 50vw 50vw; }
+
+.row {
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
